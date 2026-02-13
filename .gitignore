@@ -12,6 +12,7 @@ Thumbs.db
 
 # Large original dataset (DO NOT PUSH)
 data/images/
+embeddings/captions_features_new.pt
 
 # Optional cache
 .streamlit/
