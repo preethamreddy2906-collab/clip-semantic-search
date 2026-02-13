@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large original dataset (DO NOT PUSH)
+data/images/
+
+# Optional cache
+.streamlit/
