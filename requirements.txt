@@ -7,6 +7,5 @@ faiss-cpu
 ftfy
 regex
 tqdm
-setuptools
-openai-clip
+clip-anytorch
 
