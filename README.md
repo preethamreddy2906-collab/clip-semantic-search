@@ -150,13 +150,20 @@ streamlit run app.py
 
 ---
 
-## 📌 Demo Dataset Note
+## 🎬 Demo Preview
 
-For deployment and demonstration purposes, this repository includes only a **small representative subset of images** instead of the full dataset used during embedding generation.
+Below are example snapshots from the application UI.
 
-- The **Vector Database** and embeddings were built using the complete image dataset.
-- Only a limited number of images are stored locally to keep the repository lightweight and compatible with free hosting environments.
-- Retrieval still operates over the full semantic embedding space, but only available subset images are displayed in the UI.
+⚠️ Live deployment may be temporarily unavailable due to hosting constraints.
+The application runs locally using the instructions below.
+
+### 📝 Text → Image Search
+![Text Search](assets/demo_3.png)
+![Text Search](assets/demo_4.png)
+
+### 🖼 Image → Caption Retrieval
+![Image Caption](assets/demo_1.png)
+![Image Caption](assets/demo_2.png)
 
 
 ## 🔮 Future Work

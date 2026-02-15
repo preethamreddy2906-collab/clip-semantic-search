@@ -132,7 +132,7 @@ if mode == "📝 Text → Image Search":
         for i, idx in enumerate(indices):
             if shown >= top_k:
                 break
-            img_path = os.path.join("data/images_subset", img_names[idx])
+            img_path = os.path.join("data/images", img_names[idx])
             if os.path.exists(img_path):
                 img = load_and_resize_image(img_path)
                 cols[i].image(img, use_container_width=True)
